@@ -1,12 +1,124 @@
-<!-- 示例：index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh - CN">
+
 <head>
-    <meta charset="UTF-8">
-    <title>John Doe's Personal Page</title>
+    <meta charset="UTF - 8">
+    <meta name="viewport" content="width=device-width, initial - scale=1.0">
+    <title>周洋个人信息</title>
+    <style>
+        body {
+            font - family: Arial, sans - serif;
+        }
+
+       .container {
+            display: flex;
+            justify - content: space - around;
+        }
+
+       .left - column {
+            width: 40%;
+        }
+
+       .right - column {
+            width: 55%;
+        }
+
+       .header {
+            text - align: center;
+        }
+
+       .section {
+            margin - bottom: 20px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Welcome to my personal page</h1>
-    <p>This is a simple personal page hosted on GitHub Pages.</p>
+    <div class="container">
+        <div class="left - column">
+            <div class="section">
+                <h2>周洋</h2>
+                <div class="personal - info">
+                    <h3>个人资料</h3>
+                    <p><strong>籍贯：</strong>福建平和</p>
+                    <p><strong>政治面貌：</strong>共青团员</p>
+                    <p><strong>学校：</strong>厦门大学</p>
+                    <p><strong>学院：</strong>航空航天学院</p>
+                    <p><strong>专业：</strong>自动化</p>
+                    <p><strong>联系电话：</strong>19959608923</p>
+                    <p><strong>邮箱：</strong>1136013168@qq.com</p>
+                </div>
+                <div class="academic - grades">
+                    <h3>本科成绩信息</h3>
+                    <p><strong>总学分：</strong>169</p>
+                    <p><strong>加权排名：</strong>36/85</p>
+                    <p><strong>加权绩点（GPA）：</strong>3.38/4</p>
+                    <p><strong>加权平均分：</strong>85</p>
+                </div>
+                <div class="academic - skills">
+                    <h3>学业技能</h3>
+                    <div class="courses">
+                        <h4>部分本科课程</h4>
+                        <p>高数上、下：96、90</p>
+                        <p>复变函数：99</p>
+                        <p>java程序设计：92</p>
+                        <p>C语言：90</p>
+                        <p>模拟电子技术：99</p>
+                        <p>计算方法：90</p>
+                        <p>信号与系统：94</p>
+                        <p>软基实验：94</p>
+                    </div>
+                    <div class="skills">
+                        <h4>计算机技能</h4>
+                        <p>熟悉C语言，并掌握Java、MATLAB、汇编语言等编程语言，本科学过数据结构，计算机网络等计算机类科目。</p>
+                    </div>
+                    <div class="languages">
+                        <h4>语言</h4>
+                        <p>CET - 6：466</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right - column">
+            <div class="section">
+                <h3>考研信息</h3>
+                <p><strong>总分:</strong>338</p>
+                <p><strong>报考：</strong>厦门大学</p>
+                <p><strong>专业：</strong>工学->信息与通信工程->通信与信息系统，学硕</p>
+                <p><strong>英语一:</strong>58</p>
+                <p><strong>政治:</strong>68</p>
+                <p><strong>数学一:</strong>140</p>
+                <p><strong>信号与系统:</strong>72</p>
+            </div>
+            <div class="section">
+                <h3>本科论文</h3>
+                <p><strong>题目：</strong>《针对非线性系统的分布式博弈算法设计》</p>
+                <p>本论文以非线性多智能体为研究对象，研究非合作博弈下的纳什均衡搜索问题。设计分布式最优控制系统，采用动态的增广梯度算法，运用Matlab、C语言进行编程，绘图，以此找出非合作博弈问题中的纳什均衡点，并加以验证。</p>
+            </div>
+            <div class="section">
+                <h3>本科课程设计、奖项</h3>
+                <p><strong>嵌入式系统课程设课程设计：</strong>路灯控制器</p>
+                <p><strong>模式识别课程设计：</strong>根据提供的数据集进行分类，设计fisher分类和贝叶斯分类器</p>
+                <p><strong>2019.12：</strong>厦门大学院级“三好学生”荣誉称号</p>
+                <p><strong>2020.3：</strong>绿色地球志愿者大使</p>
+            </div>
+            <div class="section">
+                <h3>未来规划、课余生活、个人能力</h3>
+                <div class="future - plan">
+                    <h4>未来规划</h4>
+                    <p>在读研规划上，我喜欢偏重于理论研究一些，希望能通过扎实的理论研究来更好的指导工程实践。读研期间有读博意向，会尽力争取。</p>
+                </div>
+                <div class="leisure - life">
+                    <h4>课余生活</h4>
+                    <p>热爱跑步，游泳，参加过厦门大学定向越野等比赛。</p>
+                </div>
+                <div class="personal - abilities">
+                    <h4>个人能力</h4>
+                    <p>本科期间所学的学科综合程度较高，自动控制，计算机，人工智能类的学科学的比较多。本人有一定的文献阅读能力，并会认真完成老师制定的科研任务与课题。</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
